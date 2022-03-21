@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgba(275, 275, 205);
+  font-family: sans-serif;
+  size: 18px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 600px;
+  background-image: url("./img/pug-life.jpg");
+  background-size: cover;
+  height: 800px;
+  background-position: left;
+  padding: 54px 44px;
+  overflow: hidden;
+}
+h1 {
+  background-color: rgba(275, 275, 205);
+  padding: 10px;
+  margin-bottom: 20px;
+  color: rgb(20, 20, 20);
+  border-radius: 20px;
+  text-align: center;
+  top: 100px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 6px;
+  background-color: rgba(275, 275, 275, 0.7);
+  padding: 10px;
+  width: fit-content;
+  transform: translate(calc(-100% - 44px));
+  border-radius: 20px;
+}
+
+.first {
+  transition: 0.3s 0.1s;
+}
+
+.second {
+  transition: 0.3s 0.2s;
+}
+.third {
+  transition: 0.3s 0.3s;
+}
+.card:hover .text {
+  transform: translate(0);
+}
+/*
+p {
+    background-color: rgba(275, 275, 275, 0.7);
+    display: inline-block;
+    transition: all 1s ease-in;
+}
+.p1 {
+    position: absolute;
+    text-align: center;
+    top: 300px; 
+    left: 0;
+    right: 0;
+}
+.p2 {
+    position: absolute;
+    text-align: center;
+    top: 320px; 
+    left: 0;
+    right: 0;
+}
+.p3 {
+    position: absolute;
+    text-align: center;
+    top: 340px; 
+    left: 0;
+    right: 0;
+}
+
+/* animation 
+div:hover .p1 {
+    transform: translateY(0px);
+    transition-delay: 1s;
+}
+div:hover .p2 {
+    transform: translateY(0px);
+    transition-delay: 2s;
+}
+div:hover .p3 {
+    transform: translateY(0px);
+    transition-delay: 3s;
+} */
