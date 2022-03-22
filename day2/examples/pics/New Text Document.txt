@@ -1,0 +1,6 @@
+bg rain -- https://pluviophile.net/wp-content/uploads/wet-empty-road-wallpaper.jpg
+rain -- https://images.unsplash.com/photo-1618329397023-cc688d12bb79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHJvcHN8ZW58MHx8MHx8&w=1000&q=80
+bg snow -- https://wallpaperaccess.com/full/820250.jpg
+snow -- https://i1.sndcdn.com/artworks-ruyk0jiAmeayDrNf-KrtFMw-t500x500.jpg
+cloudy -- https://www.kidszine.co.uk/wp-content/uploads/2017/03/clouds-in-the-sky-750x450.jpg
+bg cloudy -- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGI76E-RbJFVLJXFty0FdgfXqdphOVFF6iw&usqp=CAU

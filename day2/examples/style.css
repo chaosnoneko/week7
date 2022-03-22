@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* RAIN */
+#app {
+  background: url("./pics/images.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.rain {
+  background: url("./pics/artworks-000024885338-5w36ki-t500x500.jpg");
+  background-size: cover;
+  height: 100%;
+  opacity: 0.3;
+  animation: rain 60s linear infinite;
+}
+@keyframes rain {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 5000px;
+  }
+}
+/* CLOUD */
+#app1 {
+  background: url("./pics/wet-empty-road-wallpaper.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.cloud {
+  background: url("./pics/clouds-in-the-sky-750x450.jpg");
+  background-size: cover;
+  height: 100%;
+  opacity: 0.3;
+  animation: rain 60s linear infinite;
+}
+@keyframes cloud {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 5000px;
+  }
+}
+/* SNOW */
+#app2 {
+  background: url("./pics/820250.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.snow {
+  background: url("./pics/artworks-ruyk0jiAmeayDrNf-KrtFMw-t500x500.jpg");
+  background-size: cover;
+  height: 100%;
+  opacity: 0.2;
+  animation:snowing 30s linear infinite;
+}
+@keyframes snowing {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100px 700px;
+  }
+ }
